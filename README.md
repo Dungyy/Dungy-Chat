@@ -5,10 +5,10 @@ Realtime chat app using websockets, Node.js, Express and Socket.io with Vanilla 
 ## Installation:
 
 Use the package manager [npm](https://npmjs.com) to install Dungy-Chat.<br>
-[nodemon](https://www.npmjs.com/package/nodemon)<br>
 [express](https://www.npmjs.com/package/express) <br>
 [moment](https://www.npmjs.com/package/moment) <br>
-[socket.io](https://www.npmjs.com/package/socket.io)
+[socket.io](https://www.npmjs.com/package/socket.io)<br>
+[nodemon](https://www.npmjs.com/package/nodemon)
 ```bash
 npm install express moment socket.io
 ```
