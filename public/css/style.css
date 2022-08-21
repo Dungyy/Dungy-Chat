@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 :root {
-	--dark-color-a: #5cb85c;
-	--dark-color-b: #5cb85cf3;
-	--light-color: #e6e9ff;
+	--dark-color-a: #fff;
+	--dark-color-b: #fff;
+	--light-color: #84a9ac9f;
 	--success-color: #5cb85c;
 	--error-color: #d9534f;
 }
@@ -15,9 +15,10 @@
 }
 
 body {
+	
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	background: var(--light-color);
+	background: #204051;
 	margin: 20px;
 }
 
@@ -42,14 +43,20 @@ a {
 
 .chat-container {
 	max-width: 1100px;
-	background: #fff;
+	background: rgb(255, 255, 255);
 	margin: 30px auto;
 	overflow: hidden;
 }
 
+#leave-btn{
+	color: var(--error-color);;
+	border-radius: 6px;
+	background-color: transparent;
+}
+
 .chat-header {
 	background: var(--dark-color-a);
-	color: #fff;
+	color: #3B6978;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	padding: 15px;
@@ -65,14 +72,14 @@ a {
 
 .chat-sidebar {
 	background: var(--dark-color-b);
-	color: #fff;
+	color: #3B6978;
 	padding: 20px 20px 60px;
 	overflow-y: scroll;
 }
 
 .chat-sidebar h2 {
 	font-size: 20px;
-	background: rgba(0, 0, 0, 0.1);
+	background: var(--dark-color-b);
 	padding: 10px;
 	margin-bottom: 20px;
 }
@@ -125,14 +132,23 @@ a {
 	padding: 5px;
 	height: 40px;
 	flex: 1;
+	border-radius: 7px;
+}
+
+.chat-form-container button {
+	border-radius: 9px;
+	color: #5cb85c;
+	background-color: transparent;
 }
 
 /* Join Page */
 .join-container {
 	max-width: 500px;
 	margin: 80px auto;
-	color: #fff;
+	color: #3B6978;
+	border-radius: 10px;
 }
+
 
 .join-header {
 	text-align: center;
@@ -177,6 +193,7 @@ a {
 .join-main .btn {
 	margin-top: 20px;
 	width: 100%;
+	color: #ffffff;;
 }
 
 @media (max-width: 700px) {
