@@ -22,7 +22,7 @@ Go to localhost 3000
 ```
 
 ## Live:
-https://dungy-chat.herokuapp.com/
+http://3.87.72.148/
 
 
 ![Screenshot (11)](https://user-images.githubusercontent.com/88725477/142990126-2f4e4b43-063c-46f1-b114-38dbcfcaf6b6.png)
